@@ -41,7 +41,7 @@
                 mod_layer_1 {
                         bindings = <
    &trans     &trans      &trans    &trans    &trans     &trans      &trans     &trans     &trans     &trans    &trans     &trans
-   &trans     &kp LCTRL   &kp LALT  &kp LGUI  &kp LSHFT  &trans      &trans     &kp RSHFT  &kp LGUI   &kp RALT  &kp LCTRL  &trans
+   &trans     &kp LCTRL   &kp LALT  &kp LGUI  &kp LSHFT  &trans      &trans     &trans     &trans     &trans    &trans     &trans
    &trans     &trans      &trans    &trans    &trans     &trans      &trans     &trans     &trans     &trans    &trans     &trans
                                     &trans    &trans     &trans      &trans     &trans     &trans
                         >;
@@ -50,7 +50,7 @@
                 mod_layer_2 {
                         bindings = <
    &trans     &trans      &trans    &trans    &trans     &trans      &trans     &trans     &trans     &trans    &trans     &trans
-   &trans     &kp LCTRL   &kp LALT  &kp LGUI  &kp LSHFT  &trans      &trans     &kp RSHFT  &kp LGUI   &kp RALT  &kp LCTRL  &trans
+   &trans     &trans      &trans    &trans    &trans     &trans      &trans     &kp RSHFT  &kp LGUI   &kp RALT  &kp LCTRL  &trans
    &trans     &trans      &trans    &trans    &trans     &trans      &trans     &trans     &trans     &trans    &trans     &trans
                                     &trans    &trans     &trans      &trans     &trans     &trans
                         >;
@@ -58,10 +58,10 @@
                 
                 navigation_layer {
                         bindings = <
-   &trans     &trans      &trans    &trans    &trans     &trans      &trans     &kp PG_UP  &kp HOME   &kp END   &kp PG_DN  &kp DEL
-   &trans     &trans      &trans    &trans    &trans     &trans      &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT &trans     &trans
-   &trans     &trans      &trans    &trans    &trans     &trans      &trans     &trans     &trans     &trans    &trans     &trans
-                                    &trans    &trans     &trans      &trans     &trans     &trans
+   &trans     &kp LG(N1)      &kp LG(N2) &kp LG(N3) &kp LG(N4) &kp LG(N5)  &trans     &kp PG_UP  &kp HOME   &kp END   &kp PG_DN  &kp DEL
+   &trans     &kp LS(LA(TAB)) &kp LS(LG(TAB))     &kp LA(TAB)     &kp LG(TAB)     &trans      &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT &trans     &trans
+   &trans     &trans          &trans     &trans     &trans     &trans      &trans     &trans     &trans     &trans    &trans     &trans
+                                    &trans    &trans     &trans      &kp LC(SPACE)         &trans     &trans
                         >;
                 };
         };
