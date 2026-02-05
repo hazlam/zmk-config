@@ -58,10 +58,10 @@
                 
                 navigation_layer {
                         bindings = <
-   &trans     &kp LG(N1)      &kp LG(N2)       &kp LG(N3)  &kp LG(N4)  &kp LG(N5)  &trans     &kp PG_UP  &kp HOME   &kp END   &kp PG_DN  &kp DEL
-   &trans     &kp LS(LA(TAB)) &kp LS(LG(TAB))  &kp LA(TAB) &kp LG(TAB) &trans      &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT &trans     &trans
-   &trans     &trans          &trans           &trans      &trans      &trans      &trans     &trans     &trans     &trans    &trans     &trans
-                                               &trans      &trans      &trans      &kp LC(SPACE)         &trans     &trans
+   &trans     &kp LG(N1)      &kp LG(N2)       &kp LG(N3)   &kp LG(N4)   &kp LG(N5)  &trans     &kp PG_UP  &kp HOME     &kp END      &kp PG_DN  &kp DEL
+   &trans     &kp LS(LA(TAB)) &kp LS(LG(TAB))  &kp LA(TAB)  &kp LG(TAB)  &trans      &kp LEFT   &kp DOWN   &kp UP       &kp RIGHT    &trans     &trans
+   &trans     &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR  &kp K_NEXT &kp K_PP   &kp K_VOL_DN &kp K_VOL_UP &kp K_MUTE &trans
+                                               &trans       &trans       &trans      &kp LC(SPACE)         &trans     &trans
                         >;
                 };
         };
